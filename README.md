@@ -3,7 +3,7 @@ Solution tempate for quick start with Xamarin Forms
 
 Include files:
 
-Localization
-MasterDetatil Menu
-FileHelper
-Sqlite connection
+1. Localization
+2. MasterDetatil Menu
+3. FileHelper
+4. Sqlite connection
