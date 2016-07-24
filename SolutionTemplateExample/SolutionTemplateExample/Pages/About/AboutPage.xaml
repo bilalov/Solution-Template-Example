@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SolutionTemplateExample.Pages.About.AboutPage">
+  <ScrollView>
+    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="20,5,20,5">
+      <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Frame BackgroundColor="Transparent" Padding="2">
+          <Label x:Name="LabelAppName" TextColor="#99CC33" FontSize="15" FontAttributes="Bold" Text="" HorizontalOptions="Center"></Label>
+        </Frame>
+        <Frame BackgroundColor="Transparent" OutlineColor="#D0D0BA">
+          <Label TextColor="#D0D0BA" FontSize="15" x:Name="LabelAboutApp" Text="">
+          </Label>
+        </Frame>
+      </StackLayout>
+    </StackLayout>
+  </ScrollView>
+
+</ContentPage>
